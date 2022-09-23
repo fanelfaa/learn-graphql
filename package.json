@@ -22,7 +22,8 @@
 		"start": "react-app-rewired start",
 		"build": "react-app-rewired build",
 		"test": "react-app-rewired test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"prepare": "npx husky install"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -43,6 +44,9 @@
 		]
 	},
 	"devDependencies": {
+		"@commitlint/cli": "^17.1.2",
+		"@commitlint/config-conventional": "^17.1.0",
+		"husky": "^8.0.1",
 		"prettier": "^2.7.1",
 		"react-app-alias": "^2.2.2",
 		"react-app-rewired": "^2.2.1"
