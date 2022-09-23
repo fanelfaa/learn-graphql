@@ -1,7 +1,9 @@
-import React from 'react'
-import logo from './logo.svg'
 import './App.css'
+
 import { gql, useQuery } from '@apollo/client'
+import React from 'react'
+
+import logo from './logo.svg'
 
 const GET_POKEMONS = gql`
 	query ($limit: Int) {

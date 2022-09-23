@@ -2,6 +2,7 @@
 // 	//do stuff with the webpack config...
 // 	return config
 // }
+// eslint-disable-next-line import/no-extraneous-dependencies
 const { aliasWebpack, aliasJest } = require('react-app-alias')
 
 const options = {} // default is empty for most cases
